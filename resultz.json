@@ -1,0 +1,146 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 11,
+  "numPassedTests": 9,
+  "numFailedTests": 2,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1722089276413,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Program hatasız bir şekilde çalışıyor",
+          "status": "passed",
+          "title": "Program hatasız bir şekilde çalışıyor",
+          "duration": 32,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsx'de 2 tane state tanımlanmış",
+          "status": "passed",
+          "title": "App.jsx'de 2 tane state tanımlanmış",
+          "duration": 11,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kaydedilmiş filmler listesi için App.jsx başlangıç değeri [] olan bir state tanımlanmış",
+          "status": "passed",
+          "title": "Kaydedilmiş filmler listesi için App.jsx başlangıç değeri [] olan bir state tanımlanmış",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " sahteVeri'deki movies, film listesi state'ine başlangıç değeri olarak tanımlanmış",
+          "status": "passed",
+          "title": "sahteVeri'deki movies, film listesi state'ine başlangıç değeri olarak tanımlanmış",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Ana sayfada tüm filmler listeleniyor",
+          "status": "passed",
+          "title": "Ana sayfada tüm filmler listeleniyor",
+          "duration": 12,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsx'de Switch kullanılmış",
+          "status": "passed",
+          "title": "App.jsx'de Switch kullanılmış",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsx'de route'da exact kullanılmış",
+          "status": "passed",
+          "title": "App.jsx'de route'da exact kullanılmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " filmler/:id route'u çalışıyor",
+          "status": "passed",
+          "title": "filmler/:id route'u çalışıyor",
+          "duration": 16,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " AnaSayfa butonu çalışıyor",
+          "status": "passed",
+          "title": "AnaSayfa butonu çalışıyor",
+          "duration": 30,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kaydet butonu çalışıyor",
+          "status": "failed",
+          "title": "Kaydet butonu çalışıyor",
+          "duration": 52,
+          "failureMessages": [
+            "expected [ <h2></h2> ] to have a length of 2 but got 1"
+          ],
+          "location": {
+            "line": 76,
+            "column": 21
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kaydet butonu aynı filmi 2. kez kaydetmiyor",
+          "status": "failed",
+          "title": "Kaydet butonu aynı filmi 2. kez kaydetmiyor",
+          "duration": 34,
+          "failureMessages": [
+            "expected [ <h2></h2> ] to have a length of 2 but got 1"
+          ],
+          "location": {
+            "line": 85,
+            "column": 21
+          }
+        }
+      ],
+      "startTime": 1722089337308,
+      "endTime": 1722089337513,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-1rb6dh/src/__tests__/App.test.jsx"
+    }
+  ]
+}
